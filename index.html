@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body{
+            background: rgb(70, 30, 30);
+            overflow-x: hidden;
+            padding-left: 35 rem;
+        }
+        section{
+            min-height: 500px;
+        }
+        header{
+            position: fixed;
+            top: 0; left: 0;
+            z-index: 1000;
+            height:100%;
+            width: 400px;
+            background: #1a1a1a;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-flow: column;
+            display: flex;
+        }
+        header .infoDesign .name{
+            font-size: 28px;
+            color: #fff;
+        }
+
+        header.navbar{
+            width: 100%;
+        }
+
+        header .navbar ul{
+            list-style: none;
+            padding: 5px 10px;
+        }
+        
+        header .navbar ul li a{
+            display: block;
+            padding: 10px 100px;
+            margin: 20px;
+            background: #333;
+            color:#fff;
+            font-size: 30px;
+            border-radius: 40px;
+        }
+
+        .homePage{
+            display: block;
+            justify-content: center;
+            text-align: left;
+            color: white;
+            padding: 100px ;
+            margin-left: 600px;
+            margin-right: 100px;
+            margin-top: 100px;
+            
+        }
+        .homePage h3{
+            font-size: 25px;
+            color: #fff;
+        }
+        .homePage h1{
+            font-size: 45px;
+            color: #fff;
+        }
+        .homePage p{
+            color: #eee;
+            font-size: 15px;
+        }
+
+        .heading{
+            text-align: center;
+            margin: 0px 0px 0px 400px ;
+            font-size: 25px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #fff4;
+            color: #ffff;
+        }
+        .heading span{
+            color: rgb(195, 195, 74)
+        }
+
+        .aboutPage .row{
+            align-items: center;
+            justify-content: center;
+            display:flex;
+            flex-wrap: wrap;
+            padding: 30px 0;
+            text-align: left;
+        }
+
+        .aboutPage .row .info{
+            color: #eee;
+            margin-left: 400px;
+        }
+
+        .aboutPage .row .info h3 span{
+            color: rgb(195, 195, 74)
+        }
+
+        .contactPage{
+            margin-left: 400px;
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="infoDesign"> 
+        <img src="416571349_3892633850965493_8096086338225700887_n.jpg" alt="smoking" style="height: 200px; width: 200px; border-radius: 50%;" >
+        <h2 class="name">Marcus Diether Quibol</h2>
+        
+    </div>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home"> home</a></li>
+            <li><a href="#about"> about</a></li>
+            <li><a href="#contact"> contacts</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class = "homePage" id="home">
+    <h3>Hello There !</h3>
+    <h1>I am <span>Marcus</span></h1>
+    <p>I am a student at Pangasinan State University. This webpage is an assignment meant to assess <br>our current knowledge about creating a website. Anything you see pass this text is not a real information about me or anyone mentioned. 
+    </p>
+</section>
+
+<section class="aboutPage" id="about">
+
+<h1 class="heading"> <span>About</span> Me</h1>
+
+<div class="row">
+   
+    <div class="info"> 
+        <h3><span> name: </span> Marcus Diether Quibol</h3>
+        <h3><span> age: </span> 21 yrs. old</h3>
+        <h3><span> sex: </span> Male</h3>
+        <h3><span> address: </span> Sitio Mapagmahal, Balanti, Tarlac</h3>
+        <h3><span> birthday: </span> January 4, 2000 </h3>
+    </div>
+</div>
+
+</section>
+
+<section class="contactPage" id="contact">
+    <h1 class="contactHeading"> <span>Contact</span> Me</h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3><span>email:</span> blestick49@yahoo.com</h3>
+            <h3><span>mail address:</span> Sitio Mapagmahal PostOffice, Balanti, Tarlac</h3>
+            <h3><span>contact number:</span> 09234182360</h3>
+        </div>
+    </div>
+</section>
+</body>
+</html>
